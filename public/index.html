@@ -1,1 +1,39 @@
-Email Form page
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Contact Form</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Custom -->
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+  <div id="form-wrapper">
+    <h2 style="text-align: center">Contact Us</h2>
+    <form>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="10" placeholder="Your Message"></textarea>
+  </div>
+  <input id="submit" type="submit" name="submitButton" class="btn btn-default" value="Send" />
+</form>
+</div>
+
+
+  </body>
+</html>
