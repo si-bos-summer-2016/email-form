@@ -3,6 +3,7 @@
 function nameCheck() {
   var x = document.forms["myForm"]["name"].value;
   if(x == null || x == "") {
-    alert("Name must be filled out.");
-    return false;
+    var error = document.getElementByClass("nameError");
+    var message = document.createTextNode("You must enter your name.");
+    error.appendChild(message);
   }
