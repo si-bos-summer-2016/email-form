@@ -1,11 +1,17 @@
 // Javascript goes in here.
+"use strict";
 
 function nameCheck() {
-  var x = document.forms["myForm"]["name"].value;
-  if(x == null || x == "") {
-    var error = document.getElementByClassName("nameError");            
-    var message = document.createTextNode("You must enter your name.");    
-    error.appendChild(message); 
+
+  try {
+    var x = document.forms["myForm"]["name"].value;
+    if(x == null || x == "") {
+      var error = document.getElementByClassName("nameError");
+      var message = document.createTextNode("You must enter your name.");
+      error.appendChild(message);
+    }
+  } catch (ex) {
+    console.log(ex);
   }
 };
 
