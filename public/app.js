@@ -14,6 +14,7 @@ function validate(){
         if(input.value.length == 0){
             input.placeholder = "This field is required!";
             input.classList.add("error");
+            textarea.classList.add("error");
         }
     }
 
