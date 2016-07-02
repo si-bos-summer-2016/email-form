@@ -17,7 +17,7 @@
 
   <div id="form-wrapper">
     <h2 style="text-align: center">Contact Us</h2>
-    <form name="myForm" onsubmit="return nameCheck()" method="POST">
+    <form name="myForm" method="POST">
   <div class="form-group">
     <label for="name">Name</label>
     <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
@@ -30,7 +30,7 @@
     <label for="message">Message</label>
     <textarea id="message" name="message" rows="10" placeholder="Your Message"></textarea>
   </div>
-  <input id="submit" type="submit" name="submit" class="btn btn-default" value="Send" />
+  <input id="submit" type="submit" name="submit" class="btn btn-default" onclick="return nameCheck()" value="Send" />
 </form>
 </div>
 
