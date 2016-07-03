@@ -1,5 +1,6 @@
 // Javascript goes in here.
 
+// This creates an array to check if fields are empty
 function validate(){
 
    var validateElements = document.getElementsByClassName("validate");
