@@ -1,6 +1,6 @@
 # email-form
 
-<a target="about_blank" href="http://danielzuzevich.com/contactform.pdf">How To Use</a>
+<a target="_blank" href="http://danielzuzevich.com/contactform.pdf">How To Use</a>
 
 Send mail via GMAIL with this contact form package. This contact form is intentionally designed to be ugly. If you end up downloading this, please contribute by adding some type of styling, feature, or anything else you can think of to make it look pretty, or more secure for users. 
 
