@@ -26,7 +26,7 @@ function validate(){
 //No idea what I am doing. In theory I think it's removing any 
 //characters except letters from the name field value entered by user.
 var name = document.getElementByID("name").value;
-if (name !== "" || "null") {
+if (name !== "" || name !== "null") {
    name = name.replace(/[^a-zA-Z ]/gi, ""));
 }
 
