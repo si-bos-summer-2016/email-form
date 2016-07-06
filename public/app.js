@@ -1,7 +1,7 @@
 // Javascript goes in here.
 
 // This creates an array to check if fields are empty
-function validate(){
+function validate(event){
    event.preventDefault();
 
    // Grabs any HTML element with a class of "validate"
