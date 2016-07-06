@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Copy From Here -->
+  <div id="form-wrapper">
+
+        <form id="#contactForm" action="contact.php" method="POST">
+
+        <!-- Header -->
+        <h2>Contact Me</h2>
+
+        <!-- Name Section -->
+        <label for="name"><p class="lead">Name</p></label>
+        <input type="text" id="name" name="name" maxlength="40" required />
+
+        <!-- Email Section -->
+        <label for="email"><p class="lead">Email</p></label>
+        <input id="email" name="email" maxlength="40" required />
+
+        <!-- Message Section -->
+        <label for="message"><p class="lead">Message</p></label>
+        <textarea id="message" name="message" rows="10" maxlength="400" required></textarea>
+        <br>
+
+        <!-- Submit -->
+        <button type="submit">Send</button>
+        <br>
+        <div id="errorMessages"></div>
+        <div id="messageSuccess"></div>
+
+      </form> <!-- End Form -->
+    </div> <!-- End Wrapper -->
+
+  <!-- End Copying Here -->
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Handles AJAX submission-->
+  <script src="mail.js"></script>
+
+</body>
+</html>
