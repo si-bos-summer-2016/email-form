@@ -1,7 +1,8 @@
 # email-form
 
-<a target="_blank" href="http://danielzuzevich.com/contactform.pdf">How To Use</a>
-<a target="_blank" href="http://danielzuzevich.com/phpmailer.zip" download>How To Use</a>
+<a target="_blank" href="http://danielzuzevich.com/contactform.pdf">How To Use</a><br>
+<a target="_blank" href="http://danielzuzevich.com/phpmailer.zip" download>Download PHPMAILER</a>
+(You need to download this for it to work).
 
 
 Send mail via GMAIL with this contact form package. This contact form is intentionally designed to be ugly. If you end up downloading this, please contribute in some way based on what track you are in, by adding some type of styling, feature, or anything else you can think of to make it look pretty, or more secure for users. 
