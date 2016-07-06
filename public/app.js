@@ -2,6 +2,7 @@
 
 // This creates an array to check if fields are empty
 function validate(){
+   event.preventDefault();
 
    // Grabs any HTML element with a class of "validate"
    var validateElements = document.getElementsByClassName("validate");
